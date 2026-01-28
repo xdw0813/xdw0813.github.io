@@ -28,10 +28,10 @@ darkmode: false
 
 # 站点基本信息
 # Site Information Settings
-author: 重生之我是内核程序员
-subtitle: 不想学习~
+author: 徐德文
+subtitle: 没有座右铭
 description: 记录笔记以及生活
-keywords: 小程学习站
+keywords: 徐德文学习站
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -168,7 +168,7 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/ChengWeiJian03 || fab fa-github
+  social0: Github || https://github.com/xdw0813 || fab fa-github
   #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
   # social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
