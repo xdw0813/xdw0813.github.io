@@ -1,0 +1,35 @@
+#--------------------------------------
+# 菜单配置说明
+# identifier ： 唯一标识不可重复
+# name       ： 菜单显示名称
+# pageRef    ： 文章在content目录下的相对路径, 更多信息请
+#               参考：https://gohugo.io/content-management/menus/#properties-site-configuration
+# url        ： 站点外部链接地址，以 http 或者 https 开头
+# pre        ： 菜单小图标
+# weight     ： 显示顺序，字数越小越靠前
+# 
+# Menus Settings
+# identifier : Unique ID cannot be repeated
+# name       : Menu name
+# pageRef    : This article in content to director,more information
+#              ref:https://gohugo.io/content-management/menus/#properties-site-configuration
+# url        : Exteneral link out of website and start with http or https
+# pre        : Icon of menu
+# weight     : Order number and smaller is top
+# -------------------------------------
+  main:
+    - identifier: home
+      name: 首页
+      pageRef: /
+      pre: home
+      weight: 1
+    - identifier: archives
+      name: 归档
+      pageRef: /archives
+      pre: archive
+      weight: 2
+    - identifier: about
+      name: 关于
+      pageRef: /about
+      pre: user
+      weight: 3
